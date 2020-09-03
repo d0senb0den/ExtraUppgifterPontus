@@ -202,6 +202,138 @@ namespace ExtraUppgifterPontus
 
             Console.ReadKey();*/
             #endregion
+            #region Övning 3-1
+
+            //1
+            /*Console.WriteLine("Är MFF sveriges bästa lag? Svara med ja eller nej.");
+            string answer = Console.ReadLine();
+            if (answer == "ja")
+            {
+                Console.WriteLine("Helt rätt!");
+            }
+            else
+            {
+                Console.WriteLine("Väldigt fel!");
+            }
+
+            Console.ReadKey();*/
+
+            //2 och 3
+            /*Console.WriteLine("Vad är temperaturen i Svedala?");
+            int temp1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Vad är temperaturen i Jukkasjärvi?");
+            int temp2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Vad är temperaturen i Visby?");
+            int temp3 = int.Parse(Console.ReadLine());
+
+            if (temp1 < temp2 && temp1 < temp3)
+            {
+                Console.WriteLine("Svedala är kallast.");
+            }
+            else if (temp2 < temp1 && temp2 < temp3)
+            {
+                Console.WriteLine("Jukkasjärvi är kallast.");
+            }
+            else if (temp3 < temp1 && temp3 < temp2)
+            {
+                Console.WriteLine("Visby är kallast.");
+            }
+
+            Console.ReadKey();*/
+            #endregion
+            #region Övning 3-3
+            //1
+            /*int number = 0;
+
+            while (number < 100)
+            {
+                
+                number++;
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine("[" + number + "]");
+                }
+                else
+                {
+                    Console.WriteLine(number);
+                }
+            }
+
+            Console.ReadKey();*/
+
+            //2
+
+            /*for (int i = 1; i <= 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine("[" + i + "]");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            
+
+            Console.ReadKey();*/
+            #endregion
+            #region Övning 3-4
+
+            /*for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 10; j++)
+                {
+                    var number = ( i * j ).ToString();
+                    if (number.Length < 2)
+                    {
+                        Console.Write(number + "   ");
+                    }
+                    else
+                    {
+                        Console.Write(number + "  ");
+                    }
+                    
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();*/
+
+            #endregion
+            #region Övning 3-5
+
+            Console.WriteLine("Hur många loops vill du ha?");
+            int input = int.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv in det första talet, bish:");
+            int bish = int.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv in det andra talet, bosh:");
+            int bosh = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i < input; i++)
+            {
+
+                if (i % bish == 0)
+                {
+                    Console.Write(" Bish ");
+                }
+                else if (i % bosh == 0)
+                {
+                    Console.Write(" Bosh ");
+                }
+                else if (i % bish == 0 && i % bosh == 0)
+                {
+                    Console.Write(" Bish/Bosh ");
+                }
+                else
+                {
+                    Console.Write(" " + i + " ");
+                }
+
+            }
+
+
+            Console.ReadKey();
+            #endregion
         }
         #region Uppgift 3 metoder
 
