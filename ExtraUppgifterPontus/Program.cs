@@ -302,7 +302,7 @@ namespace ExtraUppgifterPontus
             #endregion
             #region Övning 3-5
 
-            Console.WriteLine("Hur många loops vill du ha?");
+            /*Console.WriteLine("Hur många loops vill du ha?");
             int input = int.Parse(Console.ReadLine());
             Console.WriteLine("Skriv in det första talet, bish:");
             int bish = int.Parse(Console.ReadLine());
@@ -312,27 +312,29 @@ namespace ExtraUppgifterPontus
             for (int i = 1; i < input; i++)
             {
 
-                if (i % bish == 0)
+                if (i % bish == 0 && i % bosh == 0)
                 {
-                    Console.Write(" Bish ");
+                    Console.Write(" Bish / Bosh ");
+                    Console.WriteLine();
                 }
                 else if (i % bosh == 0)
                 {
                     Console.Write(" Bosh ");
                 }
-                else if (i % bish == 0 && i % bosh == 0)
+                else if (i % bish == 0)
                 {
-                    Console.Write(" Bish/Bosh ");
+                    Console.Write(" Bish ");
                 }
                 else
                 {
                     Console.Write(" " + i + " ");
                 }
+                
 
             }
 
 
-            Console.ReadKey();
+            Console.ReadKey();*/
             #endregion
         }
         #region Uppgift 3 metoder
